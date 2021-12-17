@@ -1,4 +1,4 @@
-#Cодержимое файла roblib.jl
+#Cодержимое файла robot.jl
 
 function move_back!(r::Robot, side::HorizonSide, num_steps::Int)
   while num_steps > 0
